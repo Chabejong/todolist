@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8cdc30ca-9640-4716-b708-efa79bada2da" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/DjangoProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todolist/templates/todolist/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todolist/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todolist/templates/todolist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/todolist/templates/todolist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todolist/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/todolist/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +119,7 @@
       <workItem from="1734332797713" duration="702000" />
       <workItem from="1734333524868" duration="1396000" />
       <workItem from="1734337938133" duration="933000" />
-      <workItem from="1734339031414" duration="4334000" />
+      <workItem from="1734339031414" duration="12885000" />
     </task>
     <servers />
   </component>

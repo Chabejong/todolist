@@ -1,4 +1,5 @@
 
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -9,8 +10,8 @@
 
 		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="static/todolist/bs/css/flatly.min.css" />
-		<link rel="stylesheet" href="static/todolist/styles.css" />
+		<link rel="stylesheet" href="{% static 'todolist/bs/css/flatly.min.css' %}" />
+		<link rel="stylesheet" href="{%  static 'todolist/styles.css' %}" />
 	</head>
 	<body>
 		<div class="container-fluid" id="wrapper">
@@ -47,6 +48,10 @@
 					</div>
 
 					<ul class="list-group t20">
+                        {% for todolist in todo_items %}
+                            {% if todolist.completed %}
+                        <li class="list-group-item todo-completed">{{todolist.text}}</li>
+                        {% endfor %}
 						<li class="list-group-item">Learn something new.</li>
 						<li class="list-group-item todo-completed">Buy a new journal</li>
 						<li class="list-group-item">Book a dentist appointment.</li>
